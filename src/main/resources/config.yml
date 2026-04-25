@@ -1,0 +1,18 @@
+# Command Disabler Configuration
+
+# List of commands to disable and the permission required to bypass the restriction.
+# Format:
+# commands:
+#   command_name: permission.node
+
+disabled-commands:
+  plugins: "commanddisabler.bypass.plugins"
+  pl: "commanddisabler.bypass.plugins"
+  version: "commanddisabler.bypass.version"
+  ver: "commanddisabler.bypass.version"
+  about: "commanddisabler.bypass.version"
+  help: "commanddisabler.bypass.help"
+  "?": "commanddisabler.bypass.help"
+
+# Message sent when a player tries to use a disabled command.
+no-permission-message: "<red>You do not have permission to use this command!</red>"

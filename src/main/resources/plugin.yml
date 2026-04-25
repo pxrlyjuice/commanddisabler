@@ -1,0 +1,12 @@
+name: CommandDisabler
+version: '${version}'
+
+main: com.xxapfelsaft.commandDisabler.CommandDisabler
+api-version: '1.21'
+load: POSTWORLD
+
+commands:
+  commanddisabler:
+    description: Main command for CommandDisabler
+    permission: commanddisabler.reload
+    usage: /<command> reload
