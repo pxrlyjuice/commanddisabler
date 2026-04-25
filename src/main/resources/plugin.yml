@@ -3,6 +3,7 @@ version: '${version}'
 
 main: com.xxapfelsaft.commandDisabler.CommandDisabler
 api-version: '1.21'
+author: xxApfelsaft
 load: POSTWORLD
 
 commands:
